@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+
+body{
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 1200px;
+    background-color: rgb(135, 177, 244);
+    margin: 0 auto;
+    padding: 1vh 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(209, 237, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.4vh;
+    border-radius: 2vh;
+    font-weight: 600;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 0 1.5vh;
+    width: 80vh;
+}
+
+.log{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: start;
+    padding: 0 1vh 0 3vh;
+}
+
+.middleTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+
+.logos{
+    width: 15vh;
+    margin-left: 1.3vh;
+}
+
+
+main{
+    background-color: rgb(209, 237, 255);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    font-size: 2.2vh;
+    border-radius: 2vh;
+
+}
+
+.mainAndAd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mainPart{
+    flex: 1;
+}
+
+.advertise1{
+    flex-basis: 30%;
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+}
+
+.advertise2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.advertise2 div{
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    width: 33%;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 3vh 2vh; 
+    justify-content: space-between;
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+
+}
+
+.hobby-column{
+    display: flex;
+    margin: 1vh;
+    padding: 1.4vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    flex-direction: column;
+    width: 33%;
+    border-radius: 2vh;
+
+}
+
+.hobby-block{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hobby-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies{
+    width: 85%;
+}
+
+.hobby-add{
+    width: 15%;
+   
+}
+ 
+.images{
+    width: 35vh;
+    border-radius: 2vh;
+}
+
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.advertise2 div{
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    background-color: rgb(194, 220, 237);
+    width: 33%;
+    border-radius: 2vh;
+}
+
+.hobby-flex{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh; 
+    width: 33%;
+}
+
+.hobbyInfo a{
+    align-items: end;
+}
+
+h1{
+    margin: 1vh;
+    padding: 3vh 2vh; 
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+}
+
+.bio{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 20px 1vh;
+    background-color: rgb(194, 220, 237);
+    justify-content: center;
+    border-radius: 2vh;
+
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 3vh; 
+    justify-content: space-between;
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+}
+
+.bio img{
+    width: 35vh;
+    margin-right: 15px;
+}
+
+.interesting-column{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.foto-box{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh;
+    padding: 3vh 1vh; 
+    justify-content: space-between;
+    background-color: rgb(194, 220, 237);
+    border-radius: 2vh;
+
+}
+
+@media screen and (max-width:1200px){
+    .logos{
+        display: none;
+    }
+    .mainPart{
+        width: 100%;
+    }
+    .mainAndAd{
+        flex-direction: column;
+    }
+    .advertise1{
+        flex-grow: 1;
+        width: auto;
+    }
+    .advertise2 div{
+        flex-grow: 1;
+        width: auto;
+    }
+    .advertise2{
+        flex-direction: column;
+    }
+    .hobby-page{
+        flex-direction: column;
+    }
+    .hobbies{
+        flex-grow: 1;
+        width: auto;
+    }
+
+    .hobby-block{
+        flex-direction: column;
+    }
+    .hobby-column{    
+        flex-grow: 1;
+        width: auto;
+    }
+    .hobby-add{
+        flex-grow: 1;
+        width: auto;
+    }
+    .hobby{
+        flex-direction: column;
+    }
+    .hobby-flex{
+        flex-direction: row;
+        flex-grow: 1;
+        width: auto;
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .middle{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+    .block{
+        flex-direction: column;
+    }
+    
+}
